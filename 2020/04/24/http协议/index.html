@@ -81,15 +81,15 @@
 
 
 
-<meta name="description" content="HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。1.谨记 - 此话(四空格) &gt; *TCP (传输控制协议) - 应用程序之间通信   &gt; *1UDP (用户数据报协议) - 应用程序之">
+<meta name="description" content="HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。  客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。 1.谨记 - 此话(四空格) &gt; *TCP (传输控制协议) - 应用程序之间通信   &gt; *1UDP (用户数据报协议) - 应">
 <meta property="og:type" content="article">
 <meta property="og:title" content="http协议">
 <meta property="og:url" content="http://yoursite.com/2020/04/24/http%E5%8D%8F%E8%AE%AE/index.html">
 <meta property="og:site_name" content="寒江孤影">
-<meta property="og:description" content="HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。1.谨记 - 此话(四空格) &gt; *TCP (传输控制协议) - 应用程序之间通信   &gt; *1UDP (用户数据报协议) - 应用程序之">
+<meta property="og:description" content="HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。  客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。 1.谨记 - 此话(四空格) &gt; *TCP (传输控制协议) - 应用程序之间通信   &gt; *1UDP (用户数据报协议) - 应">
 <meta property="og:image" content="http://static.runoob.com/images/runoob-logo.png">
 <meta property="article:published_time" content="2020-04-24T10:10:02.000Z">
-<meta property="article:modified_time" content="2020-04-29T13:12:43.450Z">
+<meta property="article:modified_time" content="2020-04-30T06:51:45.695Z">
 <meta property="article:author" content="yao">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://static.runoob.com/images/runoob-logo.png">
@@ -395,18 +395,30 @@
       
 
       
-        <h1 id="HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。"><a href="#HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。" class="headerlink" title="HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。"></a>HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。</h1><h1 id="客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request-line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。"><a href="#客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request-line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。" class="headerlink" title="客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。"></a>客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。</h1><p>1.谨记 - 此话(四空格)</p>
+        <h1 id="http响应也由四个部分组成分别是状态行-消息报头-空行和响应正文"><a class="markdownIt-Anchor" href="#http响应也由四个部分组成分别是状态行-消息报头-空行和响应正文"></a> HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。</h1>
+<h1 id="客户端发送一个http请求到服务器的请求消息包括以下格式请求行request-line-请求头部header-空行和请求数据四个部分组成下图给出了请求报文的一般格式"><a class="markdownIt-Anchor" href="#客户端发送一个http请求到服务器的请求消息包括以下格式请求行request-line-请求头部header-空行和请求数据四个部分组成下图给出了请求报文的一般格式"></a> 客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。</h1>
+<p>1.谨记 - 此话(四空格)</p>
 <pre><code>&gt; *TCP (传输控制协议) - 应用程序之间通信 
 
 &gt; *1UDP (用户数据报协议) - 应用程序之间的简单通信 
-
+ 
 &gt; *IP (网际协议) - 计算机之间的通信
 
 &gt; *ICMP (因特网消息控制协议) - 针对错误和状态
 
-&gt; *DHCP (动态主机配置协议) - 针对动态寻址</code></pre><p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标"></p>
+&gt; *DHCP (动态主机配置协议) - 针对动态寻址
+</code></pre>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" /></p>
 <p>这是一个链接 <a href="https://www.runoob.com" target="_blank" rel="noopener">菜鸟教程</a></p>
-<p>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p>
+<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Can&#039;t use function &#039;$&#039; in math mode at position 248: …
+\end{vmatrix}
+$̲{$tep1}{\style{…'>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+</p>
 
       
     </div>
@@ -598,7 +610,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。"><span class="nav-number">1.</span> <span class="nav-text">HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request-line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。"><span class="nav-number">2.</span> <span class="nav-text">客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#http响应也由四个部分组成分别是状态行-消息报头-空行和响应正文"><span class="nav-number">1.</span> <span class="nav-text"> HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#客户端发送一个http请求到服务器的请求消息包括以下格式请求行request-line-请求头部header-空行和请求数据四个部分组成下图给出了请求报文的一般格式"><span class="nav-number">2.</span> <span class="nav-text"> 客户端发送一个HTTP请求到服务器的请求消息包括以下格式：请求行（request line）、请求头部（header）、空行和请求数据四个部分组成，下图给出了请求报文的一般格式。</span></a></li></ol></div>
             
 
           </div>
